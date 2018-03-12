@@ -1,0 +1,277 @@
+.header-stats h1 {
+	color: white;
+	font-size: 50pt;
+	font-weight: 700;
+	border-bottom: 1px solid rgb(228,9,126);
+}
+
+.header-stats p {
+	font-size: 18pt;
+	font-weight: 200;
+	background-color: #222;
+	padding: 10px 10px 10px 10px;
+	border-radius: 15px;
+}
+
+.stats h2 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 30pt;
+	text-shadow: 1px 1px 5px black;
+	padding-top: 15px;
+
+}
+.astat {
+
+}
+
+.black {
+	background-color: #1a1a1a;
+
+}
+
+.astat p {
+	text-align: center;
+}
+
+.statcount {
+	color: rgb(228,9,126);
+	font-weight: 300;
+	font-size: 50pt;
+	background-color: #efefef;
+	border-radius: 20px;
+	padding: 5px 5px 5px 5px;
+
+}
+.statalign {
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.casestudies {
+	background-color: #333;
+	color: white;
+}
+
+.header-casestudies h1 {
+	font-weight: 200;
+	background-color: #333;
+	color: white;
+	margin-bottom: 5px;
+	font-size: 30pt;
+	border-bottom: 2px solid rgb(228,9,126);
+}
+
+.header-casestudies p {
+	font-weight: 400;
+	background-color: #333;
+	color: white;
+	margin-bottom: 5px;
+	font-size: 14pt;
+}
+
+.caseimg-land {
+	width: 100%;
+	height: auto;
+	padding: 5px 0px 5px 0px;
+	float: right;
+}
+
+.casename {
+	font-weight: 200;
+	text-shadow: 2px 2px 0px black;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	font-size: 20pt;
+
+}
+
+.casetags {
+	font-size: 10pt;
+	color: lightgrey;
+	text-align: left;
+	padding: 3px 3px 3px 3px;
+	margin-bottom: 10px;
+	border: 1px dashed #444;
+}
+
+.casesubheading {
+	font-size: 18pt;
+	font-weight: 400;
+	padding: 10px 0px 5px 0px;
+	color: rgb(228,9,126);
+}
+
+.casetext {
+	font-size: 14pt;
+	color: #efefef;
+}
+
+.casestudycon {
+	margin: 3px 0px 3px 0px;
+}
+
+.casenamebold {
+	font-weight: 400;
+}
+
+.casebackgrey {
+	background-color: #222;
+	margin: 5px 0px 5px 0px;
+}
+
+.casehead {
+	background-color: #222;
+	padding: 5px 0px 5px 0px;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 20px rgb(41,41,41);
+}
+
+.rounded {
+	font-weight: 400;
+}
+
+.casecontainer {
+	background: #222;
+	display: none;
+	margin-top: 5px;
+}
+
+.casemenuoption {
+	font-size: 10pt;
+	background: rgb(228,9,126);
+	border: 1px solid rgb(51,51,51);
+	padding: 3px 3px 3px 3px;
+	font-weight: 400;
+	text-decoration: underline;
+	text-decoration-color: transparent;
+	color: white;
+	transition: 1s;
+	float: left;
+	margin: 5px 1px 0px 1px;
+}
+.casemenuoption:hover{
+	border: 1px solid rgb(228,9,126);
+	text-decoration-color: white;
+	cursor: pointer;
+	background-color: #222;
+
+}
+
+.casewhatwedid {
+	background-color: #222;
+	margin: 5px 0px 5px 0px;
+}
+
+
+.lessons {
+	background-color: #222;
+	margin: 5px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+
+}
+
+.caselist {
+	font-size: 12pt;
+
+}
+
+.casephototagline {
+	font-size: 10pt;
+	color: grey;
+}
+
+@media only screen and (max-width: 750px) {
+    .casetags{
+    border: none;
+   	background-color: #004D40;
+   	color: white;
+   	margin-bottom: 2px;
+   	padding-left: 1px;
+   	font-size: 8pt;
+   	color: white;
+    }
+    .casemenuoption {
+    	margin-top: 2px;
+    }
+}
+.otw {
+	color: #1D93D1;
+	text-shadow: 2px 2px 3px #00437A;
+	font-weight: 400;
+}
+
+.simple-tag {
+	background: #7af442;
+	color: black;
+	border-radius: 25px;
+	width: 100px;
+	float: right;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: 600;
+	height: 25px;
+	box-shadow: 0 0 5px black;
+	line-height: 25px;
+	transition: 0.3s;
+	cursor: pointer;
+	text-shadow: none;
+}
+
+.complex-tag {
+	background: #ac41f4;
+	color: black;
+	border-radius: 25px;
+	width: 100px;
+	float: right;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: 600;
+	height: 25px;
+	box-shadow: 0 0 5px black;
+	line-height: 25px;
+	transition: 0.3s;
+	cursor: pointer;
+	text-shadow: none;
+}
+
+.moderate-tag {
+	background: #4286f4;
+	color: black;
+	border-radius: 25px;
+	width: 100px;
+	float: right;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: 600;
+	height: 25px;
+	box-shadow: 0 0 5px black;
+	line-height: 25px;
+	transition: 0.3s;
+	cursor: pointer;
+	text-shadow: none;
+}
+
+.otw-tag {
+	background: lightgrey;
+	margin-right: 10px;
+	transition: 0.3s;
+	color: black;
+	border-radius: 25px;
+	width: 150px;
+	float: right;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: 600;
+	height: 25px;
+	box-shadow: 0 0 5px black;
+	line-height: 25px;
+	cursor: pointer;
+	text-shadow: none;
+}
+
+.tag:hover  {
+	color: white;
+	text-shadow: 1px 1px 5px black;
+
+}

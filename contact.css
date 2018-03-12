@@ -1,0 +1,94 @@
+.contactsection {
+	color: #333;
+	text-align: center;
+	display: none;
+	border-top: 2px solid rgb(228,9,126);
+	margin-bottom: 40px;
+}
+
+.contactsection h1 {
+	font-size: 32pt;
+	font-weight: 200;
+	border-bottom: 1px solid rgb(228,9,126);
+	text-align: center;
+}
+
+.profile {
+	width: 200px;
+	border-radius: 200px;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: filter 2.5s;
+}
+
+.profile:hover {
+	filter: grayscale(100);
+	cursor: pointer;
+}
+
+.yearsatosborne {
+	text-align: center;
+	font-size: 10pt;
+}
+
+.roll{
+	font-size: 12pt;
+}
+
+.mailto {
+	text-decoration: inherit;
+	color: inherit;
+	width: inherit;
+	height: inherit;
+	padding: inherit;
+	margin: inherit;
+}
+
+.mailto:hover {
+	text-decoration: inherit;
+	color: inherit;
+	width: inherit;
+	height: inherit;
+	padding: inherit;
+	margin: inherit;
+}
+
+.bio {
+	font-size: 14pt; 
+	font-weight: 500;
+	color: #bcbcbc;
+
+}
+
+.contactpage {
+	color: #333;
+	text-align: center;
+	border-top: 1px solid rgb(228,9,126);
+	margin-bottom: 40px;
+}
+
+.contactpage h1 {
+	font-size: 32pt;
+	font-weight: 200;
+	border-bottom: 1px solid rgb(228,9,126);
+	text-align: center;
+}
+
+.clicktoemail {
+	font-size: 10pt;
+	font-weight: 100;
+}
+
+.heartbeat {
+	animation: heartbeat 1.2s ininite;
+}
+
+.contact p {
+	color: black;
+	transition: 0.5s;
+}
+
+.contact:hover p {
+	color: rgb(228,9,126);
+}

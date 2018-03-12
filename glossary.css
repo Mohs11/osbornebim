@@ -1,0 +1,81 @@
+
+.glossary {
+    background-color: #f9f9f9;
+	background-size: cover;
+	padding-bottom: 20%;
+}
+
+.search {
+	width: 90%;
+	height: 40px;
+	margin: 5px 0 5px 0;
+	background-color: #333;
+	border: 3px solid lightgrey;
+	border-radius: 5px;
+	font-size: 20pt;
+	font-weight: 300;
+	color: white;
+	text-indent: 5px;
+	transition: 0.5s;
+}
+
+.search:hover {
+	border: 3px solid lightgrey;
+	background: #000;	
+}
+.search:focus {
+	outline: none !important;
+	border-radius: 5px;
+	border: 3px solid #333;
+	background: #222;
+}
+
+
+.searchicon {
+	padding: 5px 5px 10px 5px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  font-size: 20pt;
+   padding-left: 3px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  font-size: 20pt;
+  padding-left: 3px;
+
+}
+
+.glossaryli {
+
+}
+
+.glossaryobject h3{
+	font-size: 17pt;
+	cursor: pointer;
+	padding-top: 5px;
+	color: rgb(228,9,126);
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.glossary-longdesc {
+	display: none;
+	font-size: 14pt;
+
+}
+
+.glossary-shortdesc {
+	font-size: 16pt;
+
+}
+
+th h3{
+	font-size: 20pt;
+	font-weight: 400;
+	color: black;
+
+}
+

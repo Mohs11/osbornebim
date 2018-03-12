@@ -1,0 +1,119 @@
+.backgroundimage {
+	background: white url(levels.png) no-repeat center center fixed;
+  	background-size: cover;
+}
+
+.background {
+	background: rgba(255,255,255,0.90) no-repeat center center fixed;
+  	background-size: cover;
+}
+
+.levels-title h1{
+	font-size: 52pt;
+	color: rgba(228,9,126,1);
+}
+
+.levels-title p {
+	font-size: 22pt;
+	font-weight: 400;
+	color: rgba(228,9,126,1);
+}
+
+li {
+	font-size: 21pt;
+	font-weight: 400;
+	color: black;
+}
+
+.simple {
+	background-color: #576a87;
+}
+
+.moderate {
+	background-color: #497c5a;
+}
+
+.complex {
+	background-color: #6d587a;
+}
+
+
+.level-card {
+	box-shadow: 0px 0px 8px black;
+	border-radius: 2px;
+	margin: 10px 10px 10px 10px;
+	padding-bottom: 20px;
+}
+
+.level-card h1 {
+	font-size: 52pt;
+	color: white;
+	font-weight: 300;
+}
+
+
+.level-card h2 {
+	font-size: 35pt;
+	color: white;
+	font-weight: 200;
+	margin-bottom: 20px;
+	border-bottom: 1px solid white;
+}
+
+.level-card h3 {
+	font-size: 28pt;
+	color: rgb(228,9,126);
+	font-weight: 400;
+	background: #efefef;
+	border-radius: 25px;
+	width: 200px;
+	text-align: center;
+}
+
+.level-card h4 {
+	font-size: 18pt;
+	color: white;
+	font-weight: 200;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.level-card p {
+	font-size: 22pt;
+	color: white;
+	font-weight: 400;
+}
+
+.level-card-mini {
+	border: 10px solid rgba(0,0,0,0);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.level-card-mini p{
+	color: white !important;
+	font-weight: 100 !important;
+	font-size: 14pt;
+}
+
+.simple-card-mini {
+	background-color: #455670;
+}
+.moderate-card-mini {
+	background-color: #366b48;
+}
+.complex-card-mini {
+	background-color: #654c75;
+}
+
+.feature-icon {
+	font-size: 32pt !important;
+	text-align: center !important;
+	color: white !important;
+ }
+
+ em {
+	 font-size: 10pt;
+ }

@@ -1,0 +1,65 @@
+.footer {
+	width: 100%;
+	background: #efefef;
+	border-top: 1px solid rgb(228,9,128);
+	color:black;
+
+}
+
+.footlogo {
+	float: left;
+	padding: 10px 0px 5px 10px;
+	width: 50px;
+	height: 55px;
+}
+
+.madewithlove{
+	padding: 20px 0px 0px 0px;
+	text-align: center;
+	transition: color 1s;
+}
+
+.madewithlove:hover{
+	color: rgb(228,9,126);	
+	cursor: pointer;
+	text-decoration-color: rgb(228,9,126);
+}
+
+.contact{
+	text-align: right;
+	padding-top: 20px;
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration: rgba(225,225,225,0);
+	transition: text-decoration-color 1s;
+	text-align: center;
+
+}
+.contact:hover{
+	text-decoration-color: rgb(226,9,128);
+}
+
+.fa-heart {
+	transition: color 1s;
+}
+
+.fa-heart:hover{
+	color:red;
+	cursor: pointer;
+}
+
+.icon{
+	color: rgb(226,9,128);
+	margin-bottom: 5px;
+	padding-left: 5px;	
+}
+
+/*
+@media only screen and (max-width: px) {
+    footer {
+    	position: relative;
+    	bottom: none;
+    	left: none;
+    }
+
+}

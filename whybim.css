@@ -1,0 +1,49 @@
+.whybimdesc {
+	color: white;
+	font-size: 16pt;
+}
+
+.branded {
+	color: rgb(226,9,128);
+	font-weight: 300;
+}
+
+.brandtitle-white {
+	color: white;
+	border-bottom: 2px solid rgb(226,9,128);
+	font-weight: 200;
+	font-size: 30pt;
+}
+.subtitle-white {
+	color: white;
+	
+	text-align: center;
+	font-weight: 200;
+}
+
+.iconwhycon {
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+
+.bimelement {
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+.whybimcard {
+	background-color: rgba(60,60,60,0.5);
+	box-shadow: 0 0 20px black;
+	margin-bottom: 20px;
+}
+
+#gradient {
+	background: #333;  /* fallback for old browsers */
+  	width: 100%;
+	color: white;
+	padding-bottom: 20%;
+
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #notOnIE{ display:none; }
+}

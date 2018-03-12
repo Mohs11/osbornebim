@@ -1,0 +1,59 @@
+.thirtyseconds {
+	background-color: white;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.thirtyseconds h1 {
+	color: white;
+	font-weight: 300;
+	font-size: 42pt;
+	border-bottom: 1px solid rgb(228,9,126);
+	margin-top: 20px;
+	
+}
+
+.thirtyseconds h4 {
+	color: white;
+	font-weight: 300;
+	font-size: 20pt;
+	border-bottom: 1px solid lightgrey;
+
+}
+
+.thirtyseconds p {
+	color:black;
+	font-size: 16pt;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+}
+
+.thirtyseconds span	{
+	color: rgb(228,9,126);
+	font-weight: 900;
+	text-shadow: 1px 1px 0px black;
+}
+
+.thirtysecondscarddark {
+	background-color: #333;
+	border: 10px solid rgba(0, 0, 0, 0);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.thirtysecondscardlight {
+	background-color: #f8f8f8;
+	border: 10px solid rgba(0, 0, 0, 0);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.counter {
+  display: table-cell;
+  margin: 1.5%;
+  text-align: center;
+  color: rgba(228,9,126);
+  text-shadow: 2px 2px black;
+}
+

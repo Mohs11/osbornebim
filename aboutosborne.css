@@ -1,0 +1,24 @@
+.header-aboutosborne {
+	color: rgb(226,9,128);
+	background-color:white;
+	margin: 0px 0px 0px 0px;
+}
+.aboutosborne {
+	display: none;
+}
+
+#closeaboutosborne {
+	cursor: pointer;
+	background-color: rgba(51,51,51,0.5);
+	color: black;
+	width: 100px;
+	text-align: center;
+	border: 1px 1px 1px 1px;
+	border-color: black;
+	transition: 0.5s;
+}
+
+#closeaboutosborne:hover {
+	color: white;
+	box-shadow: 5px 5px 5px #333;
+}

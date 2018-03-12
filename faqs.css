@@ -1,0 +1,52 @@
+.faqs {
+	background-color: rgb(52, 73, 94);
+	padding: 20px 0 20px 0;
+	color:white;
+}
+
+.header-faqs h1{
+	font-weight: 200;
+	color: white;
+	margin-bottom: 5px;
+	font-size: 30pt;
+	border-bottom: 2px solid rgb(228,9,126);
+}
+
+.header-faqs p{
+	color: white;
+	margin-bottom: 5px;
+	font-size: 16pt;
+}
+
+.faqsection {
+	background-color: rgb(44, 62, 80);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	box-shadow: 0 0 10px #000;
+}
+
+.faqsection h3{
+	font-size: 19pt;
+	font-weight: 200;
+}
+
+.faqsection p{
+	font-size: 14pt;
+}
+.faqsection li{
+	font-size: 14pt;
+	padding-left: 25px;
+}
+
+.faqsection span {
+	text-shadow: 1px 1px 5px black;
+	font-size: 20pt;
+	font-weight: 400;
+}
+
+strong {
+	font-weight: 200;
+	text-shadow: 2px 2px 5px black;
+}

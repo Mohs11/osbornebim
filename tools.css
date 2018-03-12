@@ -1,0 +1,162 @@
+.bimtoolsbackoverlay {
+	background: #16222A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding-bottom: 10%;
+}
+
+.bimtools{
+
+}
+
+.brandtitle{
+	border-bottom: 2px solid rgb(226,9,128);
+	font-size: 30pt;
+	font-weight: 200;
+	color: white;
+}
+
+.cardinfo {
+	display: none;
+}
+
+.datacard {
+	background-color: rgba(171, 71, 188,0.40);
+	color: white;
+	border: 2px solid rgba(0,0,0,0);
+	-webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  	box-sizing: border-box;
+  	transition: 0.3s;
+}
+
+.datacard:hover{
+	background-color: rgba(156, 39, 176,0.40);
+	cursor: pointer;
+}
+
+.datacard h3 {
+	font-weight: 200;
+	padding-top: 10px;
+	font-size: 18pt;
+	border-bottom: 1px solid white;
+}
+.datacard h4 {
+	font-weight: 200;
+	padding-top: 10px;
+	font-size: 15pt;
+	border-bottom: 1px solid white;
+}
+
+.datacard p {
+	font-size: 11pt;
+}
+
+.linkcard:link,hover,visited,active {
+	width: inherit;
+	background: none;
+	color: white;
+}
+.nolinkcard{
+	color: white;
+}
+.explain {
+	border: 2px solid rgba(0,0,0,0);
+	-webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  	box-sizing: border-box;
+}
+
+.modelcard {
+	background-color: rgba(92, 107, 192,0.40);
+	color: white;
+	border: 2px solid rgba(0,0,0,0);
+	-webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  	box-sizing: border-box;
+  	box-sizing: border-box;
+  	transition: 0.3s;
+}
+
+.modelcard:hover{
+	background-color: rgba(63, 81, 181,0.40);
+	cursor: pointer;
+	color: white;
+}
+
+.modelcard h3 {
+	font-weight: 200;
+	padding-top: 10px;
+	font-size: 18pt;
+	border-bottom: 2px solid white;
+}
+.modelcard h4 {
+	padding-left: 2px;
+	font-weight: 200;
+	padding-top: 10px;
+	font-size: 15pt;
+	border-bottom: 1px solid white;
+
+}
+
+.modelcard p {
+	font-size: 11pt;
+}
+
+.emph2 {
+	color: #333;
+	font-size: 10pt;
+}
+
+.bimtoolstag {
+	font-size: 14pt;
+	color:white;
+	padding: 5px 5px 0px 5px;
+
+}
+.bimtoolstag small{
+	color: white;
+}
+
+.emph4 {
+	font-size: 16pt;
+	color: rgb(226,9,128);
+	height: 20px;
+	width: 20px;
+	border-radius: 5px;
+
+}
+
+.toolinfomessage {
+	color:white;
+	margin: 2px 2px 2px 2px;
+	width: 100%; 
+}
+
+.cardinfotrig{
+	font-weight: 300;
+	text-decoration: underline;
+	cursor: pointer;
+	padding: 2px 2px 2px 2px;
+	background-color: rgba(228,9,126,0.80);
+	transition: 0.3s;
+}
+
+.cardinfotrig:hover {
+	color: white;
+	background-color: #333;
+}
+
+.toolimg {
+	margin-top: 5px;
+	width: 100%;
+	opacity: 0.90;
+}
+
+.toolicon {
+	margin: 2px 2px 2px 2px;
+}
+
+.tooliconsmall {
+	width: 20px;
+}
